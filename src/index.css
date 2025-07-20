@@ -106,23 +106,11 @@
   .brutal-button {
     @apply bg-brutal-red text-brutal-white font-bold uppercase tracking-wider border-2 border-brutal-black px-6 py-3 hover:bg-brutal-darkred transition-colors duration-200;
   }
-  
+
   .brutal-card {
     @apply bg-brutal-black border-2 border-brutal-red shadow-[4px_4px_0px_0px_#FE0000];
   }
-  
-  .brutal-text {
-    @apply font-oswald font-bold uppercase tracking-wider;
-  }
-}
-  .brutal-button {
-    @apply bg-brutal-red text-brutal-white font-bold uppercase tracking-wider border-2 border-brutal-black px-6 py-3 hover:bg-brutal-darkred transition-colors duration-200;
-  }
-  
-  .brutal-card {
-    @apply bg-brutal-black border-2 border-brutal-red shadow-[4px_4px_0px_0px_#FE0000];
-  }
-  
+
   .brutal-text {
     @apply font-oswald font-bold uppercase tracking-wider;
   }
