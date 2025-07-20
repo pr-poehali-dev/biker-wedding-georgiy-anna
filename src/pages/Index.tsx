@@ -16,7 +16,7 @@ const Index = () => {
               ГЕОРГИЙ <span className="text-brutal-red">&</span> АННА
             </h1>
             <div className="text-3xl md:text-4xl font-semibold mb-8 text-brutal-silver">
-              💀 БАЙКЕРСКАЯ СВАДЬБА 💀
+              🏍️ БАЙКЕРСКАЯ СВАДЬБА 🏍️
             </div>
             <div className="text-xl md:text-2xl mb-12 brutal-text">
               2 АВГУСТА 2025
