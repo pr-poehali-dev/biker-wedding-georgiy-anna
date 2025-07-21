@@ -36,7 +36,7 @@ const Index = () => {
             <a href="#location" className="brutal-text hover:text-brutal-red transition-colors">МЕСТО</a>
             <a href="#rsvp" className="brutal-text hover:text-brutal-red transition-colors">УЧАСТИЕ</a>
             <a href="#gifts" className="brutal-text hover:text-brutal-red transition-colors">ПОДАРКИ</a>
-            <a href="#story" className="brutal-text hover:text-brutal-red transition-colors">ИСТОРИЯ</a>
+
           </div>
         </div>
       </nav>
@@ -262,35 +262,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Story Section */}
-      <section id="story" className="py-20 px-4">
-        <div className="container mx-auto">
-          <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 brutal-text">
-            💘 НАША ИСТОРИЯ ЛЮБВИ
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <Card className="brutal-card">
-              <CardContent className="p-12">
-                <div className="text-center space-y-8">
-                  <div className="text-6xl">🏍️💕🏍️</div>
-                  <p className="text-xl text-brutal-white leading-relaxed">
-                    Георгий и Анна встретились на байк-фестивале "Железные Волки" в 2023 году. 
-                    Их любовь зародилась под рев мотоциклов и запах бензина. 
-                  </p>
-                  <p className="text-xl text-brutal-white leading-relaxed">
-                    Два года они колесили по дорогам России, покоряя новые маршруты и 
-                    строя планы на будущее. Теперь они готовы объединить свои судьбы 
-                    в одну большую байкерскую семью.
-                  </p>
-                  <div className="text-2xl brutal-text text-brutal-red">
-                    "ВМЕСТЕ НА ДОРОГЕ ЖИЗНИ"
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
+
 
       {/* Contact Section */}
       <section className="py-20 px-4 bg-gray-900">
