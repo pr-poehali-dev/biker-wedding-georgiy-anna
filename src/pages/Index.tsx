@@ -157,16 +157,22 @@ const Index = () => {
                   <Icon name="Car" className="inline mr-2 text-brutal-red" />
                   Парковка для мотоциклов
                 </p>
-                <Button className="brutal-button w-full">
+                <Button 
+                  className="brutal-button w-full"
+                  onClick={() => window.open('https://yandex.ru/maps?whatshere%5Bpoint%5D=37.19279499480224%2C55.63380030913755&whatshere%5Bzoom%5D=13.739858&ll=37.19279499583652%2C55.63380030849797&z=13.739858&si=wcjbkq2byq1rq88q9025ch8cn0', '_blank')}
+                >
                   ОТКРЫТЬ КАРТУ
                 </Button>
               </CardContent>
             </Card>
-            <div className="bg-gray-800 p-8 rounded border-2 border-brutal-red">
-              <div className="aspect-video bg-gray-700 rounded flex items-center justify-center">
-                <Icon name="Map" size={64} className="text-brutal-red" />
-                <span className="ml-4 text-xl brutal-text">ИНТЕРАКТИВНАЯ КАРТА</span>
-              </div>
+            <div className="bg-gray-800 p-2 rounded border-2 border-brutal-red">
+              <iframe 
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3Aca8c8c8c8c8c8c8c8c8c8c8c8c8c8c8c&amp;source=constructor"
+                width="100%" 
+                height="400"
+                className="rounded"
+                frameBorder="0"
+              ></iframe>
             </div>
           </div>
         </div>
