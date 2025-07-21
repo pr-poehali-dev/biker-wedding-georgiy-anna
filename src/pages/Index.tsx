@@ -147,7 +147,7 @@ const Index = () => {
               <CardContent className="space-y-4">
                 <p className="text-brutal-white">
                   <Icon name="MapPin" className="inline mr-2 text-brutal-red" />
-                  Московская область, Одинцовский городской округ, деревня Соломоново, Парковая улица 93
+                  деревня Соломоново, Парковая улица 93
                 </p>
                 <p className="text-brutal-white">
                   <Icon name="Phone" className="inline mr-2 text-brutal-red" />
