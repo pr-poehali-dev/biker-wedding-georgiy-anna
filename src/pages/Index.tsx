@@ -141,7 +141,7 @@ const Index = () => {
             <Card className="brutal-card">
               <CardHeader>
                 <CardTitle className="text-2xl brutal-text text-brutal-red">
-                  БАЙКЕР-КЛУБ "ЧЕРНЫЕ ВОЛКИ"
+                  МЕСТО ПРОВЕДЕНИЯ
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
