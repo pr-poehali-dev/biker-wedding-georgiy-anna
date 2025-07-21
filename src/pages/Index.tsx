@@ -47,29 +47,84 @@ const Index = () => {
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 brutal-text">
             🏍️ ПРОГРАММА ДНЯ
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="space-y-6">
             {[
-              { time: "14:00", event: "СБОР БАЙКЕРОВ", icon: "Bike" },
-              { time: "15:00", event: "ЦЕРЕМОНИЯ", icon: "Heart" },
-              { time: "16:00", event: "ФОТОСЕССИЯ", icon: "Camera" },
-              { time: "17:00", event: "БАНКЕТ", icon: "UtensilsCrossed" },
-              { time: "20:00", "event": "БАЙКЕРСКАЯ ВЕЧЕРИНКА", icon: "Music" },
-              { time: "23:00", event: "НОЧНОЙ ЗАЕЗД", icon: "Moon" },
+              { 
+                time: "12:00", 
+                event: "КТО ГОТОВ РАЗДЕЛИТЬ С НАМИ НАШ ПУТЬ К ЗАГС-У МЫ ЖДЕМ ВАС!", 
+                details: "Адрес: 7 подъезд, ул. Вокзальная 51, МО, Одинцовский го. Украшаем мотоциклы и машины, фотографируемся и выдвигаемся колонной.",
+                icon: "MapPin" 
+              },
+              { 
+                time: "13:00", 
+                event: "СТАРТ В СТОРОНУ ЗАГСА", 
+                details: "Ул. Маршала Жукова 28, МО, Одинцовский го.",
+                icon: "ArrowRight" 
+              },
+              { 
+                time: "13:30-13:40", 
+                event: "ЖДЕМ ВСЕХ КТО НЕ СМОЖЕТ СОСТАВИТЬ НАМ КОМПАНИЮ В КОЛОННЕ У ЗАГС-А", 
+                details: "",
+                icon: "Clock" 
+              },
+              { 
+                time: "14:00", 
+                event: "ТОРЖЕСТВЕННАЯ РОСПИСЬ", 
+                details: "",
+                icon: "Heart" 
+              },
+              { 
+                time: "14:30", 
+                event: "СОВМЕСТНОЕ ФОТО И БОКАЛ БЕЗалкогольного ШАМПАНСКОГО", 
+                details: "",
+                icon: "Camera" 
+              },
+              { 
+                time: "14:30-14:40", 
+                event: "СТАРТ КОЛОННЫ В СТОРОНУ ДОМА", 
+                details: "",
+                icon: "ArrowRight" 
+              },
+              { 
+                time: "15:30-16:00", 
+                event: "ВСТРЕЧА МОЛОДОЖЕНОВ", 
+                details: "",
+                icon: "Users" 
+              },
+              { 
+                time: "16:00-22:00", 
+                event: "ПРАЗДНИЧНОЕ МЕРОПРИЯТИЕ", 
+                details: "",
+                icon: "PartyPopper" 
+              },
+              { 
+                time: "22:00", 
+                event: "ЕГОРЬЕВСК НА ВЫЕЗДЕ", 
+                details: "",
+                icon: "Moon" 
+              },
             ].map((item, index) => (
               <Card key={index} className="brutal-card">
-                <CardHeader className="text-center">
-                  <div className="flex justify-center mb-4">
-                    <Icon name={item.icon} size={48} className="text-brutal-red" />
+                <CardHeader>
+                  <div className="flex items-start space-x-4">
+                    <div className="flex-shrink-0">
+                      <Icon name={item.icon} size={32} className="text-brutal-red" />
+                    </div>
+                    <div className="flex-1">
+                      <CardTitle className="text-xl brutal-text text-brutal-red mb-2">
+                        {item.time}
+                      </CardTitle>
+                      <p className="text-lg brutal-text text-brutal-white mb-2">
+                        {item.event}
+                      </p>
+                      {item.details && (
+                        <p className="text-sm text-brutal-silver">
+                          {item.details}
+                        </p>
+                      )}
+                    </div>
                   </div>
-                  <CardTitle className="text-2xl brutal-text text-brutal-red">
-                    {item.time}
-                  </CardTitle>
                 </CardHeader>
-                <CardContent>
-                  <p className="text-center text-lg brutal-text text-brutal-white">
-                    {item.event}
-                  </p>
-                </CardContent>
               </Card>
             ))}
           </div>
