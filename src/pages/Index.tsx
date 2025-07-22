@@ -167,7 +167,7 @@ const Index = () => {
             </Card>
             <div className="bg-gray-800 p-2 rounded border-2 border-brutal-red">
               <iframe 
-                src="https://yandex.ru/map-widget/v1/?um=constructor%3Aca8c8c8c8c8c8c8c8c8c8c8c8c8c8c8c&amp;source=constructor"
+                src="https://yandex.ru/map-widget/v1/?ll=37.190000%2C55.640000&z=15&l=map&pt=37.190000%2C55.640000%2Cpm2rdl~Парковая%2093%2C%20Солманово"
                 width="100%" 
                 height="400"
                 className="rounded"
