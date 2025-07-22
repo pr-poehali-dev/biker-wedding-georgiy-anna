@@ -267,7 +267,7 @@ const Index = () => {
                 <CardTitle className="text-xl brutal-text text-brutal-red text-center">ТАТЬЯНА</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-brutal-white text-center">
+                <p className="text-center text-slate-900">
                   <Icon name="Phone" className="inline mr-2 text-brutal-red" />
                   8 (977) 879-18-18
                 </p>
