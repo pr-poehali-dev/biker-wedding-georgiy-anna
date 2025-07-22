@@ -145,15 +145,15 @@ const Index = () => {
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="space-y-3">
-                <p className="text-brutal-white flex items-center">
+                <p className="flex items-center text-slate-900 font-semibold">
                   <Icon name="X" className="inline mr-3 text-brutal-red" />
                   БЕЗ галстуков
                 </p>
-                <p className="text-brutal-white flex items-center">
+                <p className="flex items-center text-slate-900 font-semibold">
                   <Icon name="Check" className="inline mr-3 text-brutal-red" />
                   Свободная и удобная одежда
                 </p>
-                <p className="text-brutal-white flex items-center">
+                <p className="flex items-center text-slate-900 font-semibold">
                   <Icon name="Heart" className="inline mr-3 text-brutal-red" />
                   Майки алкоголички и растянутые треники приветствуются!
                 </p>
