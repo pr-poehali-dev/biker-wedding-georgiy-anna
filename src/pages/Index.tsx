@@ -235,24 +235,20 @@ const Index = () => {
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 brutal-text">
             🎁 СПИСОК ЖЕЛАЕМЫХ ПОДАРКОВ
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              { item: "Деньги на медовый месяц", icon: "CreditCard", description: "На кругосветное путешествие" },
-            ].map((gift, index) => (
-              <Card key={index} className="brutal-card">
-                <CardHeader className="text-center">
-                  <Icon name={gift.icon} size={48} className="text-brutal-red mx-auto mb-4" />
-                  <CardTitle className="text-xl brutal-text text-brutal-red">
-                    {gift.item}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-center text-brutal-white">
-                    {gift.description}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
+          <div className="flex justify-center">
+            <Card className="brutal-card max-w-md">
+              <CardHeader className="text-center">
+                <Icon name="CreditCard" size={48} className="text-brutal-red mx-auto mb-4" />
+                <CardTitle className="text-xl brutal-text text-brutal-red">
+                  Деньги на медовый месяц
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-center text-brutal-white">
+                  На кругосветное путешествие
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
