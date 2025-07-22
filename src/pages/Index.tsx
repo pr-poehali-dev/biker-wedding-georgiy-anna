@@ -131,6 +131,38 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Dress Code Section */}
+      <section className="py-20 px-4">
+        <div className="container mx-auto max-w-2xl">
+          <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 brutal-text">
+            👕 DRESS CODE
+          </h2>
+          <Card className="brutal-card">
+            <CardHeader>
+              <CardTitle className="text-2xl brutal-text text-brutal-red text-center">
+                СВОБОДА И КОМФОРТ!
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="space-y-3">
+                <p className="text-brutal-white flex items-center">
+                  <Icon name="X" className="inline mr-3 text-brutal-red" />
+                  БЕЗ галстуков
+                </p>
+                <p className="text-brutal-white flex items-center">
+                  <Icon name="Check" className="inline mr-3 text-brutal-red" />
+                  Свободная и удобная одежда
+                </p>
+                <p className="text-brutal-white flex items-center">
+                  <Icon name="Heart" className="inline mr-3 text-brutal-red" />
+                  Майки алкоголички и растянутые треники приветствуются!
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
       {/* Location Section */}
       <section id="location" className="py-20 px-4 bg-gray-900">
         <div className="container mx-auto">
