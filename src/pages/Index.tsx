@@ -145,15 +145,15 @@ const Index = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-brutal-white">
+                <p className="text-slate-900">
                   <Icon name="MapPin" className="inline mr-2 text-brutal-red" />
                   деревня Соломоново, Парковая улица 93
                 </p>
-                <p className="text-brutal-white">
+                <p className="text-slate-900">
                   <Icon name="Phone" className="inline mr-2 text-brutal-red" />
                   +7 (977) 879-18-18
                 </p>
-                <p className="text-brutal-white">
+                <p className="text-slate-900">
                   <Icon name="Car" className="inline mr-2 text-brutal-red" />
                   Парковка для мотоциклов
                 </p>
