@@ -237,12 +237,7 @@ const Index = () => {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { item: "Мотоэкипировка", icon: "Shield", description: "Шлемы, куртки, перчатки" },
-              { item: "Запчасти для мотоцикла", icon: "Wrench", description: "Любые аксессуары для железных коней" },
-              { item: "Байкерские аксессуары", icon: "Star", description: "Цепи, нашивки, значки" },
-              { item: "Походное снаряжение", icon: "Tent", description: "Для долгих поездок" },
               { item: "Деньги на медовый месяц", icon: "CreditCard", description: "На кругосветное путешествие" },
-              { item: "Байкерская атрибутика", icon: "Skull", description: "Декор в стиле рок-н-ролл" },
             ].map((gift, index) => (
               <Card key={index} className="brutal-card">
                 <CardHeader className="text-center">
