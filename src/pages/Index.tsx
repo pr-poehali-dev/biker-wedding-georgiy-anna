@@ -261,26 +261,15 @@ const Index = () => {
           <h2 className="text-4xl md:text-6xl font-bold mb-16 brutal-text">
             📞 КОНТАКТЫ
           </h2>
-          <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
-            <Card className="brutal-card">
+          <div className="flex justify-center max-w-md mx-auto">
+            <Card className="brutal-card w-full">
               <CardHeader>
-                <CardTitle className="text-xl brutal-text text-brutal-red">ГЕОРГИЙ</CardTitle>
+                <CardTitle className="text-xl brutal-text text-brutal-red text-center">ТАТЬЯНА</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-brutal-white">
+                <p className="text-brutal-white text-center">
                   <Icon name="Phone" className="inline mr-2 text-brutal-red" />
-                  +7 (999) 111-22-33
-                </p>
-              </CardContent>
-            </Card>
-            <Card className="brutal-card">
-              <CardHeader>
-                <CardTitle className="text-xl brutal-text text-brutal-red">АННА</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-brutal-white">
-                  <Icon name="Phone" className="inline mr-2 text-brutal-red" />
-                  +7 (999) 444-55-66
+                  8 (977) 879-18-18
                 </p>
               </CardContent>
             </Card>
