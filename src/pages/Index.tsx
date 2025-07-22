@@ -114,7 +114,7 @@ const Index = () => {
                       <CardTitle className="text-xl brutal-text text-brutal-red mb-2">
                         {item.time}
                       </CardTitle>
-                      <p className="text-lg brutal-text text-brutal-white mb-2">
+                      <p className="text-lg brutal-text mb-2 text-slate-900">
                         {item.event}
                       </p>
                       {item.details && (
